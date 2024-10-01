@@ -12,7 +12,7 @@ while (true) {
 
     curl_close($ch);
 
-    echo $response . "\n";
+    echo "resp: " . $response . "\n";
 
     sleep(60);
 }
