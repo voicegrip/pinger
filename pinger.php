@@ -14,6 +14,6 @@ while (true) {
 
     echo "resp: " . $response . "\n";
 
-    sleep(60);
+    sleep(600);
 }
 ?>
