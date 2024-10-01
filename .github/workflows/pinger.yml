@@ -1,0 +1,14 @@
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+  push:
+    branches: [ "master" ]
+
+
+jobs:
+  fetch_data:
+    runs-on: ubuntu-latest
+    steps:
+      
+    - run: |
+        curl -X GET https://api-test-se1b.onrender.com/
